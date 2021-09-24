@@ -24,8 +24,9 @@ Typically, with neural networks, we seek to minimize the error. As such, the obj
  
 5.What is the chain rule in gradient flow?
 
-Backpropagation is an algorithm to calculate gradients.The Chain Rule is a method for finding complex derivatives.
-We are trying to find a partial derivative of E w.r.t Wih. So the strategy is to find the partial derivative of E w.r.t o multiplied by partial derivative of o w.r.t μ2 and so on moving from right to left. This process is called the chain rule.
+The Chain Rule is a method for finding complex derivatives. In neural networks it is used to carry out Backpropogation which is an algorithm to calculate gradients.
+The goal is to find a partial derivative of 'E' w.r.t 'Wih' (change in 'E' when 'Wih' is changed). 
+So the strategy is to find the partial derivative of 'E' w.r.t 'o' multiplied by partial derivative of 'o' w.r.t 'μ2' and so on moving from right to left. 
  
 
 ![ezgif-2-013fa3bda4b4](https://user-images.githubusercontent.com/42990724/134621996-43fd3ebf-fe9b-4327-a7d3-3af44abbfeb0.gif)
