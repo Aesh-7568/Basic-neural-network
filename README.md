@@ -27,6 +27,8 @@ Typically, with neural networks, we seek to minimize the error. As such, the obj
 Backpropagation is an algorithm to calculate gradients.The Chain Rule is a method for finding complex derivatives.
 We are trying to find a partial derivative of E w.r.t Wih. So the strategy is to find the partial derivative of E w.r.t o multiplied by partial derivative of o w.r.t μ2 and so on moving from right to left. This process is called the chain rule.
  
+ ![e224n508](https://user-images.githubusercontent.com/42990724/134621659-ba27ebe1-89e2-43aa-bf5b-b37ace30f36a.gif)
+
 
 Here X = Input
 bih=bias
